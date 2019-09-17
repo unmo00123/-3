@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db806bdd-72b4-4eb8-a095-a33082a89288" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +26,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1QxBhHLUjTfSzx8cGsc9Zkq3qkB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/templates/blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -34,6 +41,7 @@
       <recent name="C:\Pycharm projects\つぶやき君\blog\static\css\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Pycharm projects\つぶやき君\blog\static\css" />
       <recent name="C:\Pycharm projects\つぶやき君\blog\templates\blog" />
     </key>
   </component>
@@ -67,7 +75,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
