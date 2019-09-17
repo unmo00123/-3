@@ -1,0 +1,18 @@
+{% load static %}
+<html lang="ja">
+<head>
+    <link href="{% static 'css/base.css' %}" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>top_page</title>
+</head>
+  <body>
+   <section>
+       <h1><a href="/">つぶやき君にようこそ！</a></h1>
+       <p><a href="{% url 'blog:login'  %}">ログインする</a></p>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </section>
+</body>
+</html>

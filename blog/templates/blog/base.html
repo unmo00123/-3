@@ -1,0 +1,29 @@
+<!-- ▼▼▼ git commit ”ログインユーザー改修”　テンプレートの拡張機能を搭載しました　▼▼▼-->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="base.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8" />
+    <title>LOGIN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- ▼▼▼ bootstrap搭載　▼▼▼-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- ▲▲▲ Bootstrap搭載　▲▲▲-->
+    <!-- ▼▼▼ original搭載　▼▼▼-->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <!-- ▲▲▲ original搭載　▲▲▲-->
+</head>
+
+    {% block loginForm %}{%  endblock %}
+<body>
+    <section>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </section>
+</body>
+</html>
+<!-- ▲▲▲ git commit ”ログインユーザー改修”　テンプレートの拡張機能を搭載しました　▲▲▲-->

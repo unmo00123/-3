@@ -1,0 +1,14 @@
+<!-- ▼▼▼ git commit ”ログインユーザー改修”　テンプレートの拡張機能を搭載しました　▼▼▼-->
+<!--1.　まずは親テンプレートを指定します。-->
+{% extends 'blog/base.html' %}
+<!--2. 次に親テンプレートに組み込むブロックを記述します-->
+    {%  block loginForm %}
+    <p>新規ユーザーの作成</p>
+    <form action="{% url 'blog:create' %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">作成</button>
+    </form>
+    <a href="{% url 'blog:login' %}"><button type="button" class="btn btn-outline-info">ログイン画面へ</button></a>
+    {% endblock %}
+<!-- ▲▲▲ git commit ”ログインユーザー改修”　テンプレートの拡張機能を搭載しました　▲▲▲-->
