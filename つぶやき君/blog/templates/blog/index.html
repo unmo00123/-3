@@ -1,24 +1,25 @@
 {% load static %}
-<!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <title>index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="{% static 'css/index.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'css/index1.css' %}" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<section>
-    <h1 id="header">なにをつぶやく？</h1>
-    <i class="fas fa-dove"></i>
 
-    <form method="POST" class="post-form">{% csrf_token %}
+
+<section>
+    <p>さぁ、なにをつぶやこう？<a href="{% url 'blog:top_page' %}" id="logout">もうやめる(ログアウト)</a></p>
+    <i class="fas fa-dove"></i>
+    <form method="POST" class="post-form">
+        {% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="save btn btn-default">つぶやく</button>
     </form>
     <div class="tubu">
     <p>つぶやき一覧</p>
-    <!--        以下、postsがデータを所持しているかどうかを判定して、条件分岐をさせています。-->
         {% for post in posts %}
         <div style="border: 1px solid;">
             <div>
@@ -27,7 +28,7 @@
                 <p>{{ post.text|linebreaksbr }}</p>
              </div>
             <br>
-                <form action="/like" method="post">
+                <form class="tubu" action="/like" method="post">
                         {% csrf_token %}
                         <input type="hidden" value="{{ post.id }}" name="post_id">
                         <input type="hidden" value="{{ post.author_id }}" name="user_id">
@@ -36,10 +37,11 @@
         </div>
         {% endfor %}
     </div>
+
+</section>
+<p class="space"></p>
         <div class="wave wave1"></div>
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
         <div class="wave wave4"></div>
-    </section>
-    <a href="{% url 'blog:top_page' %}">ログアウト</a>
 </body>

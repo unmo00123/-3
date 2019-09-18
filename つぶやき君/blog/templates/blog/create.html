@@ -1,9 +1,17 @@
 <!-- ▼▼▼ git commit ”ログインユーザー改修”　テンプレートの拡張機能を搭載しました　▼▼▼-->
 <!--1.　まずは親テンプレートを指定します。-->
+
+
 {% load static %}
-{% extends 'blog/base.html' %}
+<link href="{% static 'css/login.css' %}" rel="stylesheet" type="text/css">
 <!--2. 次に親テンプレートに組み込むブロックを記述します-->
     {%  block loginForm %}
+<section>
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+</section>
     <p>新規ユーザーの作成</p>
     <form action="{% url 'blog:create' %}" method="POST">
         {% csrf_token %}

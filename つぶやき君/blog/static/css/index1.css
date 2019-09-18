@@ -1,0 +1,147 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h1{
+position: fixed; /* 固定 */
+   /* 一番上に表示 */
+  width: 100%; /* 中央に表示 */
+}
+.tubu
+{
+z-index:2;
+}
+
+footer{
+  position: fixed; /* 固定 */
+  bottom: 0;/* 一番下に表示 */
+  width: 100%; /* 中央に表示 */
+}
+
+.post_form{
+  top: 60;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height: 3.2rem;
+  font-size:25;
+}
+section
+{
+width: 100%;
+height: 100vh;
+background: #3586ff;
+padding-bottom:100;
+}
+
+.wave
+{
+background: #3586ff;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100px;
+background: url(wave.png);
+background-size: 1000px 100px;
+}
+.wave.wave1
+{
+position: fixed;
+animation: animate 30s linear infinite;
+z-index: 1000;
+opacity: 1;
+animation-delay: 0s;
+bottom: 0;
+}
+
+.wave.wave2
+{
+position: fixed;
+animation: animate2 15s linear infinite;
+z-index: 999;
+opacity: 0.5;
+animation-delay: -5s;
+bottom: 10px;
+}
+
+.wave.wave3
+{
+position: fixed;
+animation: animate2 15s linear infinite;
+z-index: 999;
+opacity: 0.5;
+animation-delay: -5s;
+bottom: 10px;
+}
+
+ .wave.wave4
+{
+position: fixed;
+animation: animate2 15s linear infinite;
+z-index: 999;
+opacity: 0.5;
+animation-delay: -5s;
+bottom: 10px;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position: 1000px;
+    }
+}
+
+@keyframes animate2
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position: 1000px;
+    }
+}
+
+
+
+@keyframes animate3
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position: 1000px;
+    }
+}
+
+
+@keyframes animate4
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position: 1000px;
+    }
+}
+
+.space
+{
+padding-bottom:150;
+margin:auto;
+background: #3586ff;
+z-index:0;
+}
