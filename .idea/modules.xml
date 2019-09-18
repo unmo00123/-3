@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C://Pycharm projects/../../pycharm projects/つぶやき君/.idea/--master.iml" filepath="C://Pycharm projects/../../pycharm projects/つぶやき君/.idea/--master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/つぶやき君.iml" filepath="$PROJECT_DIR$/.idea/つぶやき君.iml" />
     </modules>
   </component>
 </project>
