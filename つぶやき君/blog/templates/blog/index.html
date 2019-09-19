@@ -5,13 +5,16 @@
     <title>index</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{% static 'css/index1.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap&subset=cyrillic,japanese" rel="stylesheet">
 </head>
 
 <body>
 
 
 <section>
-    <p>さぁ、なにをつぶやこう？<a href="{% url 'blog:top_page' %}" id="logout">もうやめる(ログアウト)</a></p>
+    <a class="logout" href="{% url 'blog:top_page' %}" id="logout">もうやめる(ログアウト)</a>
+    <p class="header">さて、なにをつぶやこう？</p>
+
     <i class="fas fa-dove"></i>
     <form method="POST" class="post-form">
         {% csrf_token %}
@@ -19,13 +22,16 @@
         <button type="submit" class="save btn btn-default">つぶやく</button>
     </form>
     <div class="tubu">
-    <p>つぶやき一覧</p>
+    <p class="tubuyaki">つぶやき一覧</p>
+     <div class="post">
         {% for post in posts %}
-        <div style="border: 1px solid;">
+        <div style="border: 2px solid;" class="border">
             <div>
                 <p>投稿日: {{ post.created_date }}</p>
+                <div class="post2">
                 <h1><a href="">{{ post.title }}</a></h1>
                 <p>{{ post.text|linebreaksbr }}</p>
+                </div>
              </div>
             <br>
                 <form class="tubu" action="/like" method="post">
@@ -35,7 +41,7 @@
                        <input type="submit" name="like" value="いいね">（この投稿に{{ post.likepost__count }} 件いいねされました。）
                 </form>
         </div>
-        {% endfor %}
+         {% endfor %}
     </div>
 
 </section>
