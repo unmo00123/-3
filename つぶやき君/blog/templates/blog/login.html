@@ -15,7 +15,7 @@
     </section>
     <form action="" method="POST">
         {% csrf_token %}
-        {{ form.as_p }}
+        <div class="field">{{ form.as_p }}</div>
         <div class="login">
             <a href="blog:index"><button type="submit">ログイン</button></a>
         </div>

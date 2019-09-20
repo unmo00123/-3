@@ -18,6 +18,10 @@ form
   font-size:20;
   color: white;
 }
+.field
+{
+
+}
 .login{
  position: absolute;
   top: 130;
@@ -53,9 +57,9 @@ background: #3586ff;
 overflow: hidden;
 }
 
-section .wave
+.wave
 {
-position: absolute;
+background: #3586ff;
 bottom: 0;
 left: 0;
 width: 100%;
@@ -63,22 +67,46 @@ height: 100px;
 background: url(wave.png);
 background-size: 1000px 100px;
 }
-section .wave.wave1
+.wave.wave1
 {
+position: fixed;
 animation: animate 30s linear infinite;
 z-index: 1000;
 opacity: 1;
 animation-delay: 0s;
 bottom: 0;
 }
-section .wave.wave2
+
+.wave.wave2
 {
+position: fixed;
 animation: animate2 15s linear infinite;
 z-index: 999;
 opacity: 0.5;
 animation-delay: -5s;
 bottom: 10px;
 }
+
+.wave.wave3
+{
+position: fixed;
+animation: animate2 15s linear infinite;
+z-index: 999;
+opacity: 0.5;
+animation-delay: -5s;
+bottom: 10px;
+}
+
+ .wave.wave4
+{
+position: fixed;
+animation: animate2 15s linear infinite;
+z-index: 999;
+opacity: 0.5;
+animation-delay: -5s;
+bottom: 10px;
+}
+
 @keyframes animate
 {
     0%
@@ -90,6 +118,7 @@ bottom: 10px;
         background-position: 1000px;
     }
 }
+
 @keyframes animate2
 {
     0%
@@ -102,7 +131,39 @@ bottom: 10px;
     }
 }
 
+
+
+@keyframes animate3
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position: 1000px;
+    }
+}
+
+
+@keyframes animate4
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position: 1000px;
+    }
+}
+
 input
+{
+padding: 2;
+}
+
+label
 {
 
 }

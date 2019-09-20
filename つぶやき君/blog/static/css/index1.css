@@ -108,6 +108,7 @@ height: 100px;
 background: url(wave.png);
 background-size: 1000px 100px;
 }
+
 .wave.wave1
 {
 position: fixed;
@@ -137,8 +138,7 @@ opacity: 0.5;
 animation-delay: -5s;
 bottom: 10px;
 }
-
- .wave.wave4
+.wave.wave4
 {
 position: fixed;
 animation: animate2 15s linear infinite;
@@ -171,8 +171,6 @@ bottom: 10px;
         background-position: 1000px;
     }
 }
-
-
 
 @keyframes animate3
 {
