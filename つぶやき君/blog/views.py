@@ -47,17 +47,6 @@ def index(request):
     else:
         form = PostForm()
 
-    """ 
-        like_count = LikePost.objects.count() 
-        これはレコード数すべてをカウントします。
-        方法はいくつかありますが、ここでは集計テーブルとしてLIKEを使用してみましょう。
-        LIKEされる都度、集計データを更新します。likeメソッドを確認してください。
-        これで、外部結合をしてデータを取ってきます。
-        SELECT * FROM `blog_post`AS p LEFT JOIN blog_likepost AS l ON p.id=L.post_id
-        
-    """
-    # like_count = LikePost.objects.count(post__id)
-    # posts = Post.objects.order_by('-created_date')[:5]
     posts = Post.objects.select_related('likepost').values('likepost__count',
                                                            'text',
                                                            'created_date',
@@ -82,5 +71,4 @@ def like(requests):
         else:
             s = LikePost.objects.create(post_id = requests.POST['post_id'], count=1)
             s.save()
-        # LikePost.objects.create()
     return redirect('blog:index')

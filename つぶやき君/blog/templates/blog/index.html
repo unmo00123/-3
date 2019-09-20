@@ -13,13 +13,14 @@
 
 <section>
     <a class="logout" href="{% url 'blog:top_page' %}" id="logout">もうやめる(ログアウト)</a>
-    <p class="header">さて、なにをつぶやこう？</p>
+
+    　　<p class="header">さて、なにをつぶやこう？</p>
 
     <i class="fas fa-dove"></i>
     <form method="POST" class="post-form">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit" class="save btn btn-default">つぶやく</button>
+        <button type="submit" class="save">つぶやく</button>
     </form>
     <div class="tubu">
     <p class="tubuyaki">つぶやき一覧</p>

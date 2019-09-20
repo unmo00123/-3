@@ -10,7 +10,7 @@ class LoginForm(auth_forms.AuthenticationForm):
             field.widget.attrs['placeholder'] = field.label
 
 class PostForm(forms.ModelForm):
-
+    label = '書き込む'
     class Meta:
         model = Post
         fields = ('text',)
