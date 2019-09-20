@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c2d9ce0-7593-48a6-ba32-061c6bfdbd95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/つぶやき君/blog/static/css/create.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/つぶやき君.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/つぶやき君.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/つぶやき君/blog/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/つぶやき君/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/つぶやき君/blog/static/css/index1.css" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/static/css/index1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/つぶやき君/blog/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/つぶやき君/blog/templates/blog/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/templates/blog/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/つぶやき君/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/templates/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/つぶやき君/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +18,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1R0f2GHzbxGG3pYk5xL4qWgxu01" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Tutorial" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/つぶやき君/blog/static/css" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Pycharm projects\つぶやき君\つぶやき君\blog\static\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

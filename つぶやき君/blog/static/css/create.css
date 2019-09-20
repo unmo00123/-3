@@ -7,16 +7,14 @@ form
 {
  font-family: 'Kosugi Maru', sans-serif;
    position: absolute;
-  top: 00;
+  top: 35;
   right: 0;
-  bottom: 100;
-  left: 0;
+  bottom: 150;
+  left: 85;
   margin: auto;
-  width: 80%;
   height: 3.2rem;
-  text-align: center;
+   color:white;
   font-size:20;
-  color: white;
 }
 .login{
  position: absolute;
@@ -102,7 +100,18 @@ bottom: 10px;
     }
 }
 
-input
+.create
 {
+width:;
+}
 
+li
+{
+margin:2 0 2 0;
+}
+
+.saku
+{
+ margin-left: 560;
+ margin-top: 10;
 }

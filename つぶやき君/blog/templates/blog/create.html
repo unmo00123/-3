@@ -4,7 +4,7 @@
 
 {% load static %}
 <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap&subset=cyrillic,japanese" rel="stylesheet">
-<link href="{% static 'css/login.css' %}" rel="stylesheet" type="text/css">
+<link href="{% static 'css/create.css' %}" rel="stylesheet" type="text/css">
 <!--2. 次に親テンプレートに組み込むブロックを記述します-->
     {%  block loginForm %}
 <section>
@@ -13,11 +13,10 @@
         <div class="wave wave3"></div>
         <div class="wave wave4"></div>
 </section>
-    <p>新規ユーザーの作成</p>
-    <form action="{% url 'blog:create' %}" method="POST">
+    <form action="{% url 'blog:create' %}" method="POST" class="create">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">作成</button>
+        <button type="submit"class="saku">作成する</button>
     </form>
 
     <a href="{% url 'blog:login' %}"><button type="button" class="btn btn-outline-info">ログイン画面へ</button></a>
