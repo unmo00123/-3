@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c2d9ce0-7593-48a6-ba32-061c6bfdbd95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/つぶやき君/blog/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/つぶやき君/blog/static/css/create.css" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/static/css/create.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/つぶやき君/blog/static/css/index1.css" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/static/css/index1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/つぶやき君/blog/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/static/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/つぶやき君/blog/templates/blog/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/つぶやき君/blog/templates/blog/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
